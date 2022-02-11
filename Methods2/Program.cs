@@ -4,7 +4,7 @@ namespace Methods2
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
           Console.WriteLine(Add(7, 5));
 
@@ -19,15 +19,15 @@ namespace Methods2
 
         }
 
-        static int Add(int num1, int num2)
+        public static int Add(int num1, int num2)
         {
             return num1 + num2; 
         }
-        static int Subtract(int num1, int num2)
+        public static int Subtract(int num1, int num2)
         {
             return num1 - num2;
         }
-        static int Multiply(int num1, int num2)
+        public static int Multiply(int num1, int num2)
         {
             return num1 * num2;
         }
